@@ -4,5 +4,5 @@ sentence2 = []
   sentence1.collect do |words|
     sentence2 << words.reverse
   end
-  new_array.join(" ")
+  sentence2.join(" ")
 end
